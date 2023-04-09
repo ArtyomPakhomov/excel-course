@@ -1,0 +1,46 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --node-env=development",
+    "build": "webpack --node-env=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtyomPakhomov/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Artyom Pakhomov <artem.biz@list.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtyomPakhomov/excel-course/issues"
+  },
+  "homepage": "https://github.com/ArtyomPakhomov/excel-course#readme",
+  "browsersList": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
+}
